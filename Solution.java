@@ -1,11 +1,12 @@
 import java.util.ArrayList;
-import java.util.TreeSet;
+import java.util.HashSet;
+import java.util.List;
 import java.util.List;
 
 class Solution {
     public int getCommon(int[] nums1, int[] nums2) {
-        TreeSet<Integer> list = new TreeSet<>();
-        TreeSet<Integer> list1 = new TreeSet<>();
+        HashSet<Integer> list = new HashSet<>();
+        HashSet<Integer> list1 = new HashSet<>();
         List<Integer> list2 = new ArrayList<>();
 
         for (int i = 0; i < nums1.length; i++) {
